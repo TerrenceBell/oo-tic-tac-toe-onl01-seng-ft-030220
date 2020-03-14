@@ -43,8 +43,8 @@ if valid_move?(index)
   piece = current_player 
   move(index, piece)
 else
-  turn
   "Please select a valid choice"
+  turn 
 end 
 display_board
 end 
