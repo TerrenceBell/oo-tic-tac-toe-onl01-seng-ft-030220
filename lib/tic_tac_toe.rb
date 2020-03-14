@@ -37,7 +37,7 @@ def current_player
 end 
 def turn
   puts "Choose your move wisely (1-9):"
-  
+  user_input = gets.strip
 
 end 
 
