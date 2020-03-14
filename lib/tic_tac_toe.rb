@@ -35,7 +35,9 @@ end
 def current_player 
   turn_count.even? ? "X" : "O"
 end 
-def tunr 
+def turn
+  puts "Choose your move wisely (1-9):"
+  
 
 end 
 
