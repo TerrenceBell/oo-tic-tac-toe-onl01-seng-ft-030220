@@ -33,7 +33,7 @@ def turn_count
 end 
 
 def current_player 
-  current_player.even? "X" : "O"
+  current_player.even? ? "X" : "O"
 end 
 
 end 
