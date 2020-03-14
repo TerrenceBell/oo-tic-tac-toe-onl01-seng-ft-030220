@@ -48,7 +48,10 @@ else
 end 
 display_board
 end 
-def won?
+def won?(board)
+  combo = WIN_COMBINATIONS[0]
+  position_1 = combo[0]
+  
 
 
 end 
