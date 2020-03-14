@@ -1,4 +1,4 @@
-class Tic_tac_toe 
+class Tic_Tac_Toe 
 
 def initialize
   @board =[" "," "," "," "," "," "," "," "," "]
