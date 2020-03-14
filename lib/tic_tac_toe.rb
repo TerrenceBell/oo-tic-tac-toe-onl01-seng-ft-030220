@@ -67,7 +67,7 @@ def won?
  } 
  return false 
 end 
-
+def full?()
 end
 
 
