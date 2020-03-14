@@ -42,7 +42,8 @@ def turn
 if valid_move?(index)
   piece = current_player 
   move(index, piece)
-else 
+else
+  turn
   "Please select a valid choice"
 end 
 display_board
