@@ -20,7 +20,13 @@ def move(index, piece)
   @board[index] = piece
 end
 
-def 
+def position_taken(index)
+  @board[index] != " "
+end 
+
+def valid_move(index)
+  
+
 end 
 
 
