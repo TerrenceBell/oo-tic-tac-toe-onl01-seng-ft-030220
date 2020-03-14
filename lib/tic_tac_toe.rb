@@ -32,6 +32,10 @@ def turn_count
   @board.count { | space | space !=" " }
 end 
 
+def current_player 
+  current_player.even?
+end 
+
 end 
 
 
