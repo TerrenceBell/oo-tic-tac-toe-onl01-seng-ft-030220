@@ -49,8 +49,13 @@ end
 display_board
 end 
 
-def won?
- if  
+def turn_count(board)
+ occupied_spaces = 0 
+ while counter < board.size 
+ 
+ counter += 1 
+ end 
+ 
 end 
 
 
