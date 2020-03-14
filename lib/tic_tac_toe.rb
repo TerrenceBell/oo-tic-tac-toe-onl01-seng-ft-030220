@@ -5,5 +5,6 @@ def initialize
   @board =[" "," "," "," "," "," "," "," "," "]
 end
 
+def display_board
 end 
 
