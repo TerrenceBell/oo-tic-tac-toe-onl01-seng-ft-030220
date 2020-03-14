@@ -15,5 +15,18 @@ end
 def input_to_index(input)
 input.to_i-1
 end
+
+def move(index, piece)
+  @board[index] = piece
+end
 end 
 
+
+
+
+
+
+
+
+# 0 1 2 
+3 4 5
