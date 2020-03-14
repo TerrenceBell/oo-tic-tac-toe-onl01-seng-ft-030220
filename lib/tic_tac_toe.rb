@@ -48,6 +48,7 @@ else
 end 
 display_board
 end 
+def won?
 
 
 end 
