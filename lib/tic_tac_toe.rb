@@ -59,6 +59,7 @@ end
  end 
  occupied_spaces
 end 
+end 
 
 
 
