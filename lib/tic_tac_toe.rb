@@ -19,6 +19,8 @@ end
 def move(index, piece)
   @board[index] = piece
 end
+
+def 
 end 
 
 
