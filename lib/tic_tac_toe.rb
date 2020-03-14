@@ -70,6 +70,9 @@ end
 def full?
   turn_count == 9 
 end
+def draw 
+  if full? && !won?
+  end 
 end
 
 
