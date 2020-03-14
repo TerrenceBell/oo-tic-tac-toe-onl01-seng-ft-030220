@@ -59,15 +59,17 @@ def won?
     position_3 = @board[index_2]
   
  if board[position_1] == "X" && board[position_2] == "X" && board[position_3] == "X"
-   winning_combo = combo 
+  return win_combo
    
    elsif board[position_1] == "O" && board[position_2] == "O" && board[position_3] == "O"
-   winning_combo = combo  
+   return win_combo
    
  end
+ } 
+ return false 
 end 
-winning_combo
-end 
+
+end
 
 
 
