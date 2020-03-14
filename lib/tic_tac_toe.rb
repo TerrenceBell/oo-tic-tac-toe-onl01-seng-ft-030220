@@ -72,6 +72,7 @@ def full?
 end
 def draw 
   if full? && !won?
+  
   end 
 end
 
