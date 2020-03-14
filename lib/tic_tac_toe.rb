@@ -50,7 +50,7 @@ display_board
 end 
 def won?(board)
  winning_combo = nil 
-  combo = WIN_COMBINATIONS[0]
+   WIN_COMBINATIONS.each do ||combo
   position_1 = combo[0]
   position_2 = combo[1]
   position_3 = combo[2]
