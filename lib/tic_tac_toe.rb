@@ -108,7 +108,7 @@ def play
   elsif draw?
     puts "Cat's Game!"
   end
-  
+  binding.pry
 end
 
 end
