@@ -73,7 +73,8 @@ end
 def draw 
   if !won? && full?
   return true 
-else false 
+else 
+  false 
   end 
 end
 
