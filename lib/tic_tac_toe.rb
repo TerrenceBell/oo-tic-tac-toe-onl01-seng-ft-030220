@@ -82,6 +82,7 @@ def over?
     return true 
   else 
     false 
+  end 
     
 end 
 
